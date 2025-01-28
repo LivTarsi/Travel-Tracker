@@ -1,0 +1,16 @@
+# Node modules
+frontend/node_modules/
+
+# Python virtual environment
+backend/venv/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Docker build artifacts
+**/build/
+**/dist/
+
