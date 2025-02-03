@@ -1,3 +1,6 @@
+* [Deliverable 1 Document](https://docs.google.com/document/d/1FSaVSm6dJR1toYAF3_ncpFvnySs4DIx55vuZ9xW4dBA/edit?usp=sharing)
+
+
 # banking-app
 
 VERY ROUGH SKETCH // Currently using flask to make UI // Used ExchangeRate-API for conversion // 
