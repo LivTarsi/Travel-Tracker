@@ -1,4 +1,7 @@
-*
+## Deliverable 1
+* [Deliverable 1 Document combined with Resumes](Resume/deliverable1/deliverable_with_resumes.pdf)
+##
+#### Seperate Docs
 * [Deliverable 1 Document](https://docs.google.com/document/d/1nsGIeEfJcqjZ_Max3em2NcJI6Ekz9qwitJ5Ktx2cg3g/edit?usp=sharing)
 * [The group's resumes](Resume/Group_resumes_combined.pdf)
 
