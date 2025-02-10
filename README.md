@@ -1,4 +1,4 @@
-* [Deliverable 1 Document]((https://docs.google.com/document/d/1nsGIeEfJcqjZ_Max3em2NcJI6Ekz9qwitJ5Ktx2cg3g/edit?usp=sharing))
+* [Deliverable 1 Document]([https://docs.google.com/document/d/1nsGIeEfJcqjZ_Max3em2NcJI6Ekz9qwitJ5Ktx2cg3g/edit?usp=sharing])
 
 
 # banking-app
