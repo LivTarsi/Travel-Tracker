@@ -1,5 +1,5 @@
 ## Deliverable 1
-* [Deliverable 1 Document combined with Resumes](Resume/deliverable1/deliverable_with_resumes.pdf)
+* [Deliverable 1 Document combined with Resumes](Resume/deliverable1/CSC468_Deliverable_1.pdf)
 ##
 #### Seperate Docs
 * [Deliverable 1 Document](https://docs.google.com/document/d/1nsGIeEfJcqjZ_Max3em2NcJI6Ekz9qwitJ5Ktx2cg3g/edit?usp=sharing)
