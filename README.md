@@ -6,6 +6,11 @@
 * [The group's resumes](Resume/Group_resumes_combined.pdf)
 
 
+
+#### For the group
+* [Project Notes](https://docs.google.com/document/d/1tlLTfswJN_oT1oBvBYVSixCLlUY5gRvoMqDTR7MBcOM/edit?usp=sharing)
+* 
+
 # banking-app
 
 VERY ROUGH SKETCH // Currently using flask to make UI // Used ExchangeRate-API for conversion // 
