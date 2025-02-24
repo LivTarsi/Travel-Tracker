@@ -6,9 +6,10 @@
 
 * if project is not set up use these commands:
 
-` npx create-react-app [name of project]
+` npx create-react app [name of project]
 cd [name of project]
-npm start '
+npm start `
+
 
 * otherwise if project exists (ours does in frontend), only run:
 
