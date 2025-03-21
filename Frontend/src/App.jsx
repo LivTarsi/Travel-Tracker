@@ -15,6 +15,8 @@ export default function TravelTracker() {
   const API_BASE_URL = "http://localhost:5000/api";
 
   const handleSignUp = async () => {
+    console.log("Signup button clicked");
+    
     const response = await fetch(`${API_BASE_URL}/signup`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -30,6 +32,8 @@ export default function TravelTracker() {
   };
 
   const handleLogin = async () => {
+    console.log("Login button clicked");
+    
     const response = await fetch(`${API_BASE_URL}/login`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -47,13 +51,22 @@ export default function TravelTracker() {
   };
 
   const handleLogout = () => {
+    console.log("Logout button clicked");
     setToken("");
     localStorage.removeItem("token");
   };
 
   const handleCreateTrip = async () => {
+    console.log("Create Trip button clicked");
+
     if (!token) {
       alert("Please log in first.");
+      return;
+    }
+
+    if (!tripName.trim()) {
+      console.log("Trip creation failed: empty trip name");
+      alert("Trip name cannot be empty.");
       return;
     }
 
@@ -129,19 +142,19 @@ export default function TravelTracker() {
       {/* Tabs for trip management */}
       <Tabs defaultValue="flights" className="w-full">
         <TabsList className="grid grid-cols-5 gap-2 mb-4">
-          <TabsTrigger value="flights">
+          <TabsTrigger value="flights" onClick={() => console.log("Flights tab clicked")}>
             <FaPlane className="mr-2" /> Flights
           </TabsTrigger>
-          <TabsTrigger value="stay">
+          <TabsTrigger value="stay" onClick={() => console.log("Stay tab clicked")}>
             <FaHotel className="mr-2" /> Stay
           </TabsTrigger>
-          <TabsTrigger value="itinerary">
+          <TabsTrigger value="itinerary" onClick={() => console.log("Itinerary tab clicked")}>
             <FaListAlt className="mr-2" /> Itinerary
           </TabsTrigger>
-          <TabsTrigger value="budget">
+          <TabsTrigger value="budget" onClick={() => console.log("Budget tab clicked")}>
             <FaDollarSign className="mr-2" /> Budget
           </TabsTrigger>
-          <TabsTrigger value="planning">
+          <TabsTrigger value="planning" onClick={() => console.log("Planning tab clicked")}>
             <FaClipboardList className="mr-2" /> Planning
           </TabsTrigger>
         </TabsList>
@@ -163,7 +176,7 @@ export default function TravelTracker() {
             <CardContent className="p-4">
               <h2 className="text-lg font-semibold">Trip Planning</h2>
               <Input placeholder="Enter details..." className="mb-2" />
-              <Button>Submit</Button>
+              <Button onClick={() => console.log("Submit button clicked")}>Submit</Button>
             </CardContent>
           </Card>
         </TabsContent>
