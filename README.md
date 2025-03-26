@@ -1,3 +1,13 @@
+## Curr Commands to Run
+* First Terminal
+  ```
+  python3 -m venv traveltracker_env
+  traveltracker_env\Scripts\activate
+  python backend\app.py
+* Second Terminal
+  ```
+  cd frontend
+  npm run dev
 ## Deliverable 1
 * [Deliverable 1 Document combined with Resumes](Resume/deliverable1/CSC468_Deliverable_1.pdf)
 ##
@@ -9,7 +19,7 @@
 
 #### For the group
 * [Project Notes](https://docs.google.com/document/d/1tlLTfswJN_oT1oBvBYVSixCLlUY5gRvoMqDTR7MBcOM/edit?usp=sharing)
-* 
+  
 
 # Travel Tracker
 
