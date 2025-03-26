@@ -41,6 +41,8 @@ def signup():
     data = request.get_json()
     email = data.get("email")
     password = data.get("password")
+
+    print(f"Received email: {email}, password: {password}")
     
     if not email or not password:
         return jsonify({"msg": "Email and password required"}), 400

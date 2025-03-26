@@ -32,6 +32,8 @@ export default function TravelTracker() {
       body: JSON.stringify({ email, password }),
     });
 
+    console.log(JSON.stringify({ email, password }))
+    
     const data = await response.json();
     if (response.ok) {
       alert("Sign-up successful! Please log in.");
