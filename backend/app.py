@@ -7,11 +7,13 @@ from flask_jwt_extended import (
     JWTManager, create_access_token, jwt_required, get_jwt_identity
 )
 from dotenv import load_dotenv
+from flask_cors import CORS
 
 # load env
 load_dotenv()
 
 app = Flask(__name__)
+CORS(app, resources={r"/api/*": {"origins": "http://localhost:5173"}}) #will be mapped to port
 
 # mongo and jwt database
 app.config["MONGO_URI"] = os.environ.get("MONGO_URI", "mongodb://localhost:27017/traveltracker")
@@ -25,6 +27,12 @@ jwt = JWTManager(app)
 @app.route("/")
 def home():
     return "Flask server is running!", 200
+
+
+#test connection
+@app.route("/api/test", methods=["GET"])
+def test():
+    return jsonify({"msg": "we're connected!!!!"}), 200
 
 # User Endpoint
 

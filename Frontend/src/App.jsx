@@ -14,6 +14,15 @@ export default function TravelTracker() {
 
   const API_BASE_URL = "http://localhost:5000/api";
 
+
+  const testConnection = async () => {
+    const res = await fetch("http://localhost:5000/api/test");
+    const data = await res.json();
+    console.log("From Backend:", data.msg);
+    alert(`Backend: ${data.msg}`);
+  };
+  
+
   const handleSignUp = async () => {
     console.log("Signup button clicked");
     
@@ -25,7 +34,7 @@ export default function TravelTracker() {
 
     const data = await response.json();
     if (response.ok) {
-      alert("Signup successful! Please log in.");
+      alert("Sign-up successful! Please log in.");
     } else {
       alert(data.msg || "Error signing up.");
     }
@@ -90,6 +99,9 @@ export default function TravelTracker() {
   return (
     <div className="p-6 max-w-3xl mx-auto">
       <h1 className="text-3xl font-bold mb-6 text-center">Travel Tracker</h1>
+
+      {/* Temp test for server connection */}
+      <Button onClick={testConnection}>Click to test servers</Button>
 
       {/* User Authentication */}
       {!token ? (
