@@ -15,7 +15,9 @@
   align-items: center;
 
 }
-
+body{
+  background: rgb(247, 217, 222);
+}
 a {
   font-weight: 500;
   color: #646cff;
@@ -36,8 +38,13 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 4.2em;
   line-height: 1.1;
+  color:#591d50;
+}
+h2{
+  color:#591d50;
+  padding: 14px;
 }
 
 button {
@@ -47,12 +54,12 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: rgb(222, 126, 142);
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: rgb(130, 18, 130);
 }
 button:focus,
 button:focus-visible {
@@ -61,7 +68,28 @@ button:focus-visible {
 button:active{
   background-color: #640357;
 }
+.p-4{
+  color: black;
+}
+.mb-6{
+  text-align: left;
+  
+}
+.mb-2{
+  background-color: whitesmoke;
+}
+.login-and-signup-btn{
+  margin-top: 20px ;
+  margin-bottom: 20px;
+  margin-left: 60px;
+}
 
+input::placeholder{
+  color: rgb(84, 12, 44);
+  background: ivory;
+  border-style:line;
+  
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

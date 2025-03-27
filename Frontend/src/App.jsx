@@ -122,7 +122,7 @@ export default function TravelTracker() {
             onChange={(e) => setPassword(e.target.value)}
             className="mb-2"
           />
-          <div className="flex gap-2">
+          <div className="login-and-signup-btn">
             <Button onClick={handleLogin}>Log In</Button>
             <Button onClick={handleSignUp} variant="outline">Sign Up</Button>
           </div>
