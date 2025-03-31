@@ -14,7 +14,13 @@
 
 
 
-## Curr Commands to Run
+
+
+
+
+## For the group
+
+### Curr Commands to Run
 * First Terminal
   ```
   python3 -m venv traveltracker_env
@@ -25,8 +31,6 @@
   cd frontend
   npm run dev
 
-
-#### For the group
 * [Project Notes](https://docs.google.com/document/d/1tlLTfswJN_oT1oBvBYVSixCLlUY5gRvoMqDTR7MBcOM/edit?usp=sharing)
   
 
