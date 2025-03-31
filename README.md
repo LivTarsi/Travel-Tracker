@@ -1,3 +1,17 @@
+## Deliverable 2
+* [Deliverable 2 Document combined with Resumes](Resume/deliverable2/CSC468_Deliverable2_Group5.pdf)
+* [Presentation SINGLE Document](Resume/deliverable2/TravelTracker_Poster.pdf)
+* [Previous Presentation Document (Mult-page)](Resume/deliverable2/TravelTracker_OriginalSlides.pdf)
+## Deliverable 1
+* [Deliverable 1 Document combined with Resumes](Resume/deliverable1/CSC468_Deliverable_1.pdf)
+
+
+#### Seperate Docs
+* [Deliverable 1 Document](https://docs.google.com/document/d/1nsGIeEfJcqjZ_Max3em2NcJI6Ekz9qwitJ5Ktx2cg3g/edit?usp=sharing)
+* [The group's resumes](Resume/Group_resumes_combined.pdf)
+
+
+
 ## Curr Commands to Run
 * First Terminal
   ```
@@ -8,13 +22,6 @@
   ```
   cd frontend
   npm run dev
-## Deliverable 1
-* [Deliverable 1 Document combined with Resumes](Resume/deliverable1/CSC468_Deliverable_1.pdf)
-##
-#### Seperate Docs
-* [Deliverable 1 Document](https://docs.google.com/document/d/1nsGIeEfJcqjZ_Max3em2NcJI6Ekz9qwitJ5Ktx2cg3g/edit?usp=sharing)
-* [The group's resumes](Resume/Group_resumes_combined.pdf)
-
 
 
 #### For the group
